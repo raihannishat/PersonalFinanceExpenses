@@ -1,0 +1,56 @@
+﻿@model PFE.Web.Areas.Admin.Models.MenuModel
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+@if (SignInManager.IsSignedIn(User))
+{
+    <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        <div class="image">
+            <img src="/admin/img/avatar5.png" class="img-circle elevation-2" alt="User Image">
+        </div>
+        <div class="info">
+            <a class="nav-link d-block" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">@User.Identity.Name</a>
+        </div>
+    </div>
+}
+<nav class="mt-2">
+    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+        <!-- Add icons to the links using the .nav-icon class
+    with font-awesome or any other icon font library -->
+        @foreach (var item in Model.MenuItems)
+        {
+            <li class="nav-item has-treeview menu-open">
+                <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-tachometer-alt"></i>
+                    <p>
+                        @item.Title
+                        <i class="right fas fa-angle-left"></i>
+                    </p>
+                </a>
+                <ul class="nav nav-treeview">
+                    @foreach (var subItem in item.Childs)
+                    {
+                        <li class="nav-item">
+                            <a href="@subItem.Url" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>@subItem.Title</p>
+                            </a>
+                        </li>
+                    }
+                </ul>
+            </li>
+        }
+
+        @if (SignInManager.IsSignedIn(User))
+        {
+
+            <li class="nav-item has-treeview menu-open">
+                <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                    <button type="submit" class="nav-link btn btn-link text-white">Logout</button>
+                </form>
+            </li>
+        }
+
+        </ul>
+</nav>

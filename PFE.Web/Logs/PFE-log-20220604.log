@@ -1,0 +1,26 @@
+2022-06-04 00:12:16.230 +06:00 [Information] Application Starting up
+2022-06-04 00:18:05.520 +06:00 [Warning] User null validation failed: "DuplicateUserName".
+2022-06-04 00:18:34.817 +06:00 [Warning] Invalid password for user "052ec293-f71f-46a6-086e-08da3b6e1ae9".
+2022-06-04 00:18:34.817 +06:00 [Warning] User "052ec293-f71f-46a6-086e-08da3b6e1ae9" failed to provide the correct password.
+2022-06-04 00:22:43.199 +06:00 [Information] User created a new account with password. Name: "test"
+2022-06-04 00:24:15.454 +06:00 [Information] User logged in.
+2022-06-04 00:59:00.987 +06:00 [Information] Application Starting up
+2022-06-04 12:11:56.262 +06:00 [Information] Application Starting up
+2022-06-04 12:12:44.449 +06:00 [Information] User created a new account with password. Name: "omi"
+2022-06-04 12:14:54.730 +06:00 [Information] Budget Create Sucessfully
+2022-06-04 12:15:39.108 +06:00 [Information] Expenses Create Sucessfully
+2022-06-04 12:21:46.433 +06:00 [Information] Application Starting up
+2022-06-04 12:22:18.339 +06:00 [Information] User logged in.
+2022-06-04 13:48:02.914 +06:00 [Information] Application Starting up
+2022-06-04 13:48:24.530 +06:00 [Warning] Invalid password for user "d8224d24-52be-430c-309e-08da3b6c86ff".
+2022-06-04 13:48:24.535 +06:00 [Warning] User "d8224d24-52be-430c-309e-08da3b6c86ff" failed to provide the correct password.
+2022-06-04 13:48:39.820 +06:00 [Information] User logged in.
+2022-06-04 13:53:55.813 +06:00 [Information] Application Starting up
+2022-06-04 13:54:12.845 +06:00 [Information] User logged in.
+2022-06-04 13:58:32.333 +06:00 [Information] Application Starting up
+2022-06-04 13:58:45.501 +06:00 [Information] User logged in.
+2022-06-04 14:00:17.826 +06:00 [Information] Application Starting up
+2022-06-04 14:00:35.810 +06:00 [Information] User logged in.
+2022-06-04 14:02:34.085 +06:00 [Information] Application Starting up
+2022-06-04 14:05:22.606 +06:00 [Information] Application Starting up
+2022-06-04 14:06:25.454 +06:00 [Information] Application Starting up

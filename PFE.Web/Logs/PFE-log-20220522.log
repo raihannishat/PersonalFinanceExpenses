@@ -1,0 +1,29 @@
+2022-05-22 02:53:55.789 +06:00 [Information] Application Starting up
+2022-05-22 02:53:57.950 +06:00 [Fatal] Application Starting Up Failed!
+System.IO.DirectoryNotFoundException: C:\Users\Raihan Nishat\.nuget\packages\microsoft.aspnetcore.identity.ui\3.1.1\staticwebassets\V4\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root)
+   at Microsoft.AspNetCore.Hosting.StaticWebAssets.StaticWebAssetsFileProvider..ctor(String pathPrefix, String contentRoot)
+   at Microsoft.AspNetCore.Hosting.StaticWebAssets.StaticWebAssetsLoader.<>c.<UseStaticWebAssetsCore>b__2_0(ContentRootMapping cr)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.OfTypeIterator[TResult](IEnumerable source)+MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.Hosting.StaticWebAssets.StaticWebAssetsLoader.UseStaticWebAssetsCore(IWebHostEnvironment environment, Stream manifest)
+   at Microsoft.AspNetCore.Hosting.StaticWebAssets.StaticWebAssetsLoader.UseStaticWebAssets(IWebHostEnvironment environment, IConfiguration configuration)
+   at Microsoft.AspNetCore.WebHost.<>c.<ConfigureWebDefaults>b__9_0(WebHostBuilderContext ctx, IConfigurationBuilder cb)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass8_0.<ConfigureAppConfiguration>b__0(HostBuilderContext context, IConfigurationBuilder builder)
+   at Microsoft.Extensions.Hosting.HostBuilder.BuildAppConfiguration()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at PFE.Web.Program.Main(String[] args) in D:\Code\GitHub\PFE\PersonalFinanceExpenses\PFE.Web\Program.cs:line 29
+2022-05-22 02:57:24.853 +06:00 [Information] Application Starting up
+2022-05-22 02:58:16.711 +06:00 [Information] User logged in.
+2022-05-22 03:07:20.817 +06:00 [Information] Application Starting up
+2022-05-22 03:07:39.626 +06:00 [Information] User logged in.
+2022-05-22 03:08:08.595 +06:00 [Information] Application Starting up
+2022-05-22 03:08:51.380 +06:00 [Information] User created a new account with password. Name: "demo"
+2022-05-22 03:09:18.767 +06:00 [Information] Category Create Sucessfully
+2022-05-22 03:10:02.356 +06:00 [Information] Category Create Sucessfully
+2022-05-22 03:10:20.739 +06:00 [Information] Category Create Sucessfully
+2022-05-22 03:10:58.624 +06:00 [Information] Budget Create Sucessfully
+2022-05-22 03:12:06.487 +06:00 [Information] Expenses Create Sucessfully
